@@ -24,6 +24,15 @@ const Navigation = () => {
           <Button as={Link} to="/join-waiting-list" variant="ghost">
             Join Waiting List
           </Button>
+          <Button as={Link} to="/surgeon-scheduling" variant="ghost">
+            Surgeon Scheduling
+          </Button>
+          <Button as={Link} to="/theater-list-and-stack" variant="ghost">
+            Theater List and Stack
+          </Button>
+          <Button as={Link} to="/communication-and-alerts" variant="ghost">
+            Communication and Alerts
+          </Button>
         </Flex>
       </Flex>
     </Box>
