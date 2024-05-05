@@ -33,6 +33,28 @@ const PlatformOverview = () => {
             <ListIcon as={FaCheckCircle} color="green.500" />
             Documentation and Reporting - Centralized system for entering and accessing surgical records.
           </ListItem>
+          <ListItem>
+            <ListIcon as={FaCheckCircle} color="green.500" />
+            Integration with PACS - Enable secure, HIPAA-compliant access to medical images and X-rays within the hospital management system.
+          </ListItem>
+          <ListItem>
+            <ListIcon as={FaCheckCircle} color="green.500" />
+            Traffic Light System - Implement a color-coded urgency indicator for surgeries to assist in prioritization and resource allocation.
+          </ListItem>
+          <ListItem>
+            <ListIcon as={FaCheckCircle} color="green.500" />
+            Advanced Dashboards and Visualizations:
+            <List spacing={2} pl={4}>
+              <ListItem>
+                <ListIcon as={FaCheckCircle} color="green.500" />
+                Procedure Time Tracking and Analysis - Visualize the duration of various orthopedic procedures to optimize scheduling and resource use.
+              </ListItem>
+              <ListItem>
+                <ListIcon as={FaCheckCircle} color="green.500" />
+                Resource Utilization Monitoring - Track and visualize the use of operating rooms, equipment, and personnel to identify inefficiencies and improve planning.
+              </ListItem>
+            </List>
+          </ListItem>
         </List>
       </VStack>
     </Container>
